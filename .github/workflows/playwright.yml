@@ -9,7 +9,7 @@ on:
 jobs:
   test:
     timeout-minutes: 60
-    runs-on: ubuntu-latest
+    runs-on: Windows-latest
     steps:
       # Checkout and setup
       - uses: actions/checkout@v2
